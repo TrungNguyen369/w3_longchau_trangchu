@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "sass": "sass --watch assets/scss/styles.scss assets/css/styles.css"
+  },
   "dependencies": {
     "bootstrap-icons": "^1.9.1"
   }
