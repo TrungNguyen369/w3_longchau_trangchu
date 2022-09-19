@@ -1,0 +1,27 @@
+// slider
+.swiper {
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+      opacity: 1;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: flex;
+      flex-direction: row;
+      width: 40px;
+      height: 40px;
+      background: #ffffff;
+      opacity: 0.7;
+      border: 1px solid #b6c0ce;
+      border-radius: 100px;
+    }
+    .swiper-button-next:after {
+      font-size: 16px;
+      color: $Gray600;
+    }
+    .swiper-button-prev:after {
+      font-size: 16px;
+      color: $Gray600;
+    }
+  }
+  

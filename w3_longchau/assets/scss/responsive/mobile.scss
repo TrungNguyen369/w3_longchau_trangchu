@@ -2,12 +2,17 @@
   html {
     min-width: 360px !important;
   }
+
   .mobile-sreen {
     display: flex !important;
   }
 
   .desktop-screen {
     display: none !important;
+  }
+  .link:hover,
+  .link{
+    background-size: 0;
   }
 
   .line-right {
@@ -20,49 +25,49 @@
   }
 
   // menu in mobile
-  .menu-hearder:hover{
-    .nav{
+  .header__menu:hover {
+    .nav {
       display: flex;
     }
   }
-  .menu-hearder {
+  .header__menu {
     color: #ffffff;
     font-size: 16px;
     width: 72px;
   }
 
   // header
-  .header-group {
-    .nav {
+  .header {
+    &__nav {
       display: none;
     }
-    .logo-searchbar {
+    &__logo {
+      width: 147px;
+      height: 32px;
+    }
+    &__searchbar{
       .content {
         padding: 0px 10px;
       }
-      .logo {
-        width: 147px;
-        height: 32px;
+    }
+    &__hotline {
+      .card-history {
+        display: none;
       }
-      .hotline-card {
-        .card-history {
-          display: none;
-        }
-        .cart {
-          width: 72px;
-          .cart-item {
-            > p {
-              display: none;
-            }
+      .cart {
+        width: 72px;
+        .cart-item {
+          > p {
+            display: none;
           }
           .icon-cart {
-            max-width: 24px;
+            font-size: 24px;
           }
           .cart-number {
             padding: 0;
             right: -24px;
           }
-        }
+        } 
       }
     }
   }
@@ -77,30 +82,29 @@
 
   // block
   .block {
-    .block-title {
+    &__title {
       font-size: 20px;
       line-height: 28px;
     }
-    .block-content .block-item {
+    &__content .block-item {
       .block-info {
         display: none;
       }
-      .img-block {
+      &__img {
         max-width: 58px;
         display: none;
       }
     }
+    &__btn-group {
+      display: flex;
+      flex-direction: column;
+      a {
+        margin-top: 14px;
+      }
+    }
   }
-
   .block-next {
     max-width: 16px;
-  }
-  .block-btn-group {
-    display: flex;
-    flex-direction: column;
-    a {
-      margin-top: 14px;
-    }
   }
   // block
 
@@ -110,14 +114,14 @@
       overflow: auto;
       margin-bottom: 6px;
     }
-    .cate-list-name {
+    &__name {
       font-weight: 500;
       font-size: 20px;
       line-height: 28px;
       text-align: center;
       color: #1e293b;
     }
-    .cate-list-content {
+    &__content {
       // width: 1200px;
       margin: 0px 10px 10px 10px;
       margin-bottom: 6px;
@@ -162,7 +166,7 @@
         font-size: 20px;
       }
     }
-    .product-list {
+    &__list {
       margin-left: 0;
       margin-left: -4px;
       margin-left: -4px;
@@ -203,7 +207,7 @@
   //product-sell
   .product-selling {
     margin-bottom: 0;
-    .product-selling-list {
+    &__list {
       flex-direction: column;
       margin: 16px 8px;
       overflow-x: auto;
@@ -223,14 +227,14 @@
           font-size: 14px;
         }
       }
-      .product-sell-price-old{
+      .product-sell-price-old {
         font-size: 13px;
       }
     }
     .img-item {
       width: 100%;
     }
-    .product-selling-title {
+    &__title {
       margin-left: 20px;
       font-size: 16px;
       line-height: 24px;
@@ -245,12 +249,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-size: 100%;
     background: url(https://nhathuoclongchau.com/frontend_v3/images/bg-footer-app.png)
       no-repeat 0 0;
     // border: 1px solid #d8e0e8;
     border-radius: 12px;
-    max-width: 400px;
+    // max-width: 400px;
     padding: 0px 12px;
   }
 
@@ -302,7 +307,7 @@
   .footer {
     margin: 0;
     //find
-    .footer-find {
+    &__find {
       .link-find {
         .fa-map-marker {
           font-size: 20px;
@@ -316,6 +321,7 @@
       .btn-find {
         padding: 7px 16px;
         font-size: 14px;
+        color: #ffffff;
       }
     }
 
@@ -328,7 +334,7 @@
     }
 
     //introduce
-    .footer-introduce {
+    &__introduce {
       display: flex;
       width: 100%;
       align-items: center;
@@ -387,7 +393,7 @@
         max-width: 140px;
       }
     }
-    .copyright .content .copy-item {
+    &__copyright .content .copy-item {
       text-align: left;
       width: 100%;
       display: flex;
@@ -411,7 +417,7 @@
 
   // catte-list
   .cate-list {
-    .cate-list-content {
+    &__content {
       width: 750px;
     }
   }

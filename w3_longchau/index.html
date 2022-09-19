@@ -19,23 +19,29 @@
 
 <body>
     <!-- Hearding content -->
-    <header class="header-group">
-        <div class="logo-searchbar">
+    <header class="header">
+        <div class="header__searchbar">
             <div class="content">
-                <div class="mobile-sreen menu-hearder">
+                <!-- menu mobile screen-->
+                <div class="header__menu mobile-sreen">
                     <i class="fa fa-bars mobile-sreen" aria-hidden="true"></i>
                 </div>
-                <div class="logo">
-                    <img src="./assets/img/logo.png" alt="logo">
+                
+                <!-- logo -->
+                <div class="header__logo">
+                    <a>
+                     <img src="./assets/img/logo.png" alt="logo">
+                    </a>
                 </div>
-                <div class="hotline-card">
+                <div class="header__hotline">
                     <a href="#">
                         <div class="card-history">
-                            <div class="icon-history">
-                                <!-- <i class="bi bi-file-earmark-text"></i> -->
+                            <i class="card-history__icon fa fa-file-text" aria-hidden="true"></i>
+                            <!-- <div class="icon-history">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
                                 <img src="./assets/img/icon.png" alt="history-icon">
-                            </div>
-                            <div class="label-history">
+                            </div> -->
+                            <div class="card-history__label">
                                 <p>Tra cứu</p>
                                 <p class="label-history-text">Lịch sử đơn hàng</p>
                             </div>
@@ -44,12 +50,17 @@
                     <a href="#">
                         <div class="cart">
                             <div class="cart-item">
-                                <div class="icon-cart">
+                                <i class="icon-cart fa fa-shopping-cart" aria-hidden="true">
+                                    <div class="cart-number">
+                                        <p>200</p>
+                                    </div>
+                                </i>
+                                <!-- <div class="icon-cart">
                                     <img src="./assets/img/icon (1).png" alt="cart-icon">
                                     <div class="cart-number">
                                         <p>200</p>
                                     </div>
-                                </div>
+                                </div> -->
                                 <p>Giỏ hàng</p>
                             </div>
                         </div>
@@ -57,14 +68,14 @@
                 </div>
             </div>
         </div>
-        <div class="nav">
+        <div class="header__nav">
             <div class="content">
                 <ul>
                     <li><a href="#" class="nav-item">Thực Phẩm chức Năng<i
                                 class="fa-sharp fa-solid fa-chevron-down"></i>
                         </a>
                         <div class="subnav">
-                            <div class="subnav-left">
+                            <div class="subnav__left">
                                 <div class="nav-left-item">
                                     <div class="left-item-img">
                                         <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -129,9 +140,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="subnav-right">
+                            <div class="subnav__right">
                                 <div class="right-cate-list">
-                                    <div class="right-cate-item">
+                                    <div class="right-cate-item col-4">
                                         <div class="cate-img">
                                             <div class="img-item">
                                                 <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -142,7 +153,7 @@
                                             Sinh lý - nội tiết tố
                                         </div>
                                     </div>
-                                    <div class="right-cate-item">
+                                    <div class="right-cate-item col-4">
                                         <div class="cate-img">
                                             <div class="img-item">
                                                 <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -153,7 +164,7 @@
                                             Sinh lý - nội tiết tố
                                         </div>
                                     </div>
-                                    <div class="right-cate-item">
+                                    <div class="right-cate-item col-4">
                                         <div class="cate-img">
                                             <div class="img-item">
                                                 <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -164,7 +175,7 @@
                                             Sinh lý - nội tiết tố
                                         </div>
                                     </div>
-                                    <div class="right-cate-item">
+                                    <div class="right-cate-item col-4">
                                         <div class="cate-img">
                                             <div class="img-item">
                                                 <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -175,7 +186,7 @@
                                             Sinh lý - nội tiết tố
                                         </div>
                                     </div>
-                                    <div class="right-cate-item">
+                                    <div class="right-cate-item col-4">
                                         <div class="cate-img">
                                             <div class="img-item">
                                                 <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -186,7 +197,7 @@
                                             Sinh lý - nội tiết tố
                                         </div>
                                     </div>
-                                    <div class="right-cate-item">
+                                    <div class="right-cate-item col-4">
                                         <div class="cate-img">
                                             <div class="img-item">
                                                 <img src="https://images.fpt.shop/unsafe/fit-in/80x80/filters:quality(90):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
@@ -318,52 +329,55 @@
                     <li><a href="#" class="nav-item">Hệ thống nhà thuốc</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="search-section">
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide"><img
-                            src="https://images.fpt.shop/unsafe/fit-in/1600x400/filters:quality(80):fill(white)/nhathuoclongchau.com/upload/slide/1659455539-uGqp-chuyen-trang-sanofi.png"
-                            alt=""></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.fpt.shop/unsafe/fit-in/1600x400/filters:quality(80):fill(white)/nhathuoclongchau.com/upload/slide/1659455646-rU5F-sua-tam-em-be-cetaphil-uu-dai-doc-quyen.png"
-                            alt=""></div>
-                    <div class="swiper-slide"><img
-                            src="https://images.fpt.shop/unsafe/fit-in/1600x400/filters:quality(80):fill(white)/nhathuoclongchau.com/upload/slide/1658467715-tm6o-dac-quyen-mua-hang-1k.png"
-                            alt=""></div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </div>
+        </div>   
     </header>
     <!-- Hearding content -->
+
+    <!-- Slider -->
+    <div class="search-section">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img
+                        src="https://images.fpt.shop/unsafe/fit-in/1600x400/filters:quality(80):fill(white)/nhathuoclongchau.com/upload/slide/1659455539-uGqp-chuyen-trang-sanofi.png"
+                        alt=""></div>
+                <div class="swiper-slide"><img
+                        src="https://images.fpt.shop/unsafe/fit-in/1600x400/filters:quality(80):fill(white)/nhathuoclongchau.com/upload/slide/1659455646-rU5F-sua-tam-em-be-cetaphil-uu-dai-doc-quyen.png"
+                        alt=""></div>
+                <div class="swiper-slide"><img
+                        src="https://images.fpt.shop/unsafe/fit-in/1600x400/filters:quality(80):fill(white)/nhathuoclongchau.com/upload/slide/1658467715-tm6o-dac-quyen-mua-hang-1k.png"
+                        alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+     <!-- Slider -->
 
     <!-- Bocking content -->
     <div class="block">
         <div class="content">
-            <div class="block-title">
+            <div class="block__title">
                 Mua Thuốc Dễ Dàng Tại Long Châu
             </div>
-            <div class="block-content">
+            <div class="block__content">
                 <div class="block-item line-right">
-                    <div class="img-block">
+                    <div class="block-item__img">
                         <img src="https://nhathuoclongchau.com/frontend_v3/images/banner-html/home/chuptoathuoc.png"
                             alt="picture">
                     </div>
-                    <div class="img-block mobile-sreen">
+                    <div class="block-item__img mobile-sreen">
                         <img src="https://nhathuoclongchau.com/frontend_v3/images/banner-html/home/chuptoathuoc-mb.png"
                             alt="">
                     </div>
                     <div class="block-info">
-                        <div class="block-item-name">Chụp Toa Thuốc</div>
-                        <div class="block-item-description">đơn giản và nhanh chóng</div>
+                        <div class="block-info__name">Chụp Toa Thuốc</div>
+                        <div class="block-info__description">đơn giản và nhanh chóng</div>
                     </div>
                     <div class="mobile-sreen ">
                         Chụp toa thuốc
@@ -373,17 +387,17 @@
                     <img src="./assets/img/icon-next.png" alt="picture">
                 </div>
                 <div class="block-item line-right">
-                    <div class="img-block">
+                    <div class="block-item__img">
                         <img src="https://nhathuoclongchau.com/frontend_v3/images/banner-html/home/info-ct.png"
                             alt="picture">
                     </div>
-                    <div class="img-block mobile-sreen">
+                    <div class="block-item__img mobile-sreen">
                         <img src="https://nhathuoclongchau.com/frontend_v3/images/banner-html/home/info-ct-mb.png"
                             alt="">
                     </div>
                     <div class="block-info">
-                        <div class="block-item-name">Nhập Thông Tin Liên Lạc</div>
-                        <div class="block-item-description">để được tư vấn đặt hàng</div>
+                        <div class="block-info__name">Nhập Thông Tin Liên Lạc</div>
+                        <div class="block-info__description">để được tư vấn đặt hàng</div>
                     </div>
                     <div class="mobile-sreen ">
                         Nhập thông tin
@@ -393,25 +407,25 @@
                     <img src="./assets/img/icon-next.png" alt="picture">
                 </div>
                 <div class="block-item">
-                    <div class="img-block">
+                    <div class="block-item__img">
                         <img src="https://nhathuoclongchau.com/frontend_v3/images/banner-html/home/duoc-sy.png" alt="">
                     </div>
-                    <div class="img-block mobile-sreen">
+                    <div class="block-item__img mobile-sreen">
                         <img src="https://nhathuoclongchau.com/frontend_v3/images/banner-html/home/duoc-sy-mb.png"
                             alt="">
                     </div>
                     <div class="block-info">
-                        <div class="block-item-name">Nhận Báo Giá Từ Dược Sỹ</div>
-                        <div class="block-item-description">kèm theo tư vấn miễn phí</div>
+                        <div class="block-info__name">Nhận Báo Giá Từ Dược Sỹ</div>
+                        <div class="block-info__description">kèm theo tư vấn miễn phí</div>
                     </div>
                     <div class="mobile-sreen ">
                         Nhận báo giá
                     </div>
                 </div>
             </div>
-            <div class="block-btn-group">
-                <button>MUA THUỐC NGAY</button>
-                <a href="#">Hoặc mua qua hotline 1800 6928</a>
+            <div class="block__btn-group">
+                <button> <a>MUA THUỐC NGAY</a></button>
+                <a href="#" class="link">Hoặc mua qua hotline 1800 6928</a>
             </div>
         </div>
     </div>
@@ -420,11 +434,11 @@
     <!-- body content -->
     <!-- cate list -->
     <div class="cate-list">
-        <div class="cate-list-name">
+        <div class="cate-list__name">
             Danh Mục Nổi Bật
         </div>
         <div class="content">
-            <div class="cate-list-content">
+            <div class="cate-list__content">
                 <div class="cate-row">
                     <div class="cate-item">
                         <div class="cate-media">
@@ -512,7 +526,7 @@
                     </div>
                 </div>
                 <div class="cate-row">
-                    <div class="cate-item">
+                    <div class="cate-item background-yellow">
                         <div class="cate-media">
                             <img src="https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(100):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
                                 alt="">
@@ -526,7 +540,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cate-item background-yellow">
+                    <div class="cate-item ">
                         <div class="cate-media">
                             <img src="https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(100):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
                                 alt="">
@@ -540,7 +554,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cate-item">
+                    <div class="cate-item background-yellow">
                         <div class="cate-media">
                             <img src="https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(100):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
                                 alt="">
@@ -554,7 +568,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cate-item background-yellow">
+                    <div class="cate-item ">
                         <div class="cate-media">
                             <img src="https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(100):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
                                 alt="">
@@ -568,7 +582,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cate-item">
+                    <div class="cate-item background-yellow">
                         <div class="cate-media">
                             <img src="https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(100):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
                                 alt="">
@@ -582,7 +596,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cate-item background-yellow">
+                    <div class="cate-item">
                         <div class="cate-media">
                             <img src="https://images.fpt.shop/unsafe/fit-in/200x200/filters:quality(100):fill(white)/nhathuoclongchau.com/upload/images/filtercate/sinh-ly-noi-tiet-to.png"
                                 alt="">
@@ -604,7 +618,7 @@
 
     <!-- product-block -->
     <div class="product-block">
-        <div class="product-block-list">
+        <div class="product-block__list">
             <div class="content">
                 <div class="product-block-title">
                     <i class="fa fa-shield" aria-hidden="true"></i>
@@ -1147,11 +1161,11 @@
     <!-- product-selling -->
     <div class="product-selling">
         <div class="content">
-            <div class="product-selling-title">
+            <div class="product-selling__title">
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
                 Bán Chạy Nhất
             </div>
-            <div class="product-selling-list">
+            <div class="product-selling__list">
                 <div class="col product-sellinng-item">
                     <div class="img-item">
                         <img src="https://images.fpt.shop/unsafe/fit-in/250x250/filters:quality(90):fill(white)/nhathuoclongchau.com/images/product/2022/06/00030434-active-lung-400mg-new-nordic-2x15-5527-62af_large.jpg"
@@ -1398,7 +1412,7 @@
     <!-- footer-->
     <div class="footer">
         <!-- find -->
-        <div class="footer-find">
+        <div class="footer__find">
             <div class="content desktop-screen">
                 <a>
                     <div class="link-find">
@@ -1430,7 +1444,7 @@
 
 
         <!-- introduce -->
-        <div class="footer-introduce">
+        <div class="footer__introduce">
             <div class="content">
                 <div class="introduce-info">
                     <div class="contract-social-mobile mobile-sreen">
@@ -1465,17 +1479,17 @@
                             VỀ CHÚNG TÔI <i class="fa fa-chevron-down mobile-sreen" aria-hidden="true"></i>
                         </div>
                         <ul>
-                            <li><a> Giới thiệu </a> </li>
-                            <li><a> Hệ thống cửa hàng </a></li>
-                            <li><a> Giấy phép kinh doanh </a></li>
-                            <li><a> qui chế hoạt động </a></li>
-                            <li><a> Chính sách đặt cọc </a></li>
-                            <li><a> Chính sách đổi trả thuốc </a></li>
-                            <li><a> Chính sách giao hàng </a></li>
-                            <li><a> Chính sách bảo mật </a></li>
-                            <li><a> Chính sách thanh toán </a></li>
-                            <li><a> Kiểm tra hóa đơn điện tử </a></li>
-                            <li><a> Tra cứu đơn hàng </a></li>
+                            <li><a class="link"> Giới thiệu </a> </li>
+                            <li><a class="link"> Hệ thống cửa hàng </a></li>
+                            <li><a class = "link"> Giấy phép kinh doanh </a></li>
+                            <li><a class = "link"> qui chế hoạt động </a></li>
+                            <li><a class = "link"> Chính sách đặt cọc </a></li>
+                            <li><a class = "link"> Chính sách đổi trả thuốc </a></li>
+                            <li><a class = "link"> Chính sách giao hàng </a></li>
+                            <li><a class = "link"> Chính sách bảo mật </a></li>
+                            <li><a class = "link"> Chính sách thanh toán </a></li>
+                            <li><a class = "link"> Kiểm tra hóa đơn điện tử </a></li>
+                            <li><a class = "link"> Tra cứu đơn hàng </a></li>
                         </ul>
                     </div>
                     <div class="info-category">
@@ -1483,13 +1497,13 @@
                             DANH MỤC <i class="fa fa-chevron-down mobile-sreen" aria-hidden="true"></i>
                         </div>
                         <ul>
-                            <li><a>Thực phẩm chức năng</a></li>
-                            <li><a>Dược mỹ phẩm</a></li>
-                            <li><a> Chăm sóc cá nhân</a></li>
-                            <li><a>Thuốc</a></li>
-                            <li><a>Trang thiết bị y tế</a></li>
-                            <li><a>Bệnh</a></li>
-                            <li><a>Góc sức khoẻ</a></li>
+                            <li><a class = "link">Thực phẩm chức năng</a></li>
+                            <li><a class = "link">Dược mỹ phẩm</a></li>
+                            <li><a class = "link"> Chăm sóc cá nhân</a></li>
+                            <li><a class = "link">Thuốc</a></li>
+                            <li><a class = "link">Trang thiết bị y tế</a></li>
+                            <li><a class = "link">Bệnh</a></li>
+                            <li><a class = "link">Góc sức khoẻ</a></li>
                         </ul>
                     </div>
                     <div class="info-functional-foods">
@@ -1497,12 +1511,12 @@
                             THỰC PHẨM CHỨC NĂNG <i class="fa fa-chevron-down mobile-sreen" aria-hidden="true"></i>
                         </div>
                         <ul>
-                            <li><a>Sinh lý - Nội tiết tố</a> </li>
-                            <li><a> Cải thiện tăng cường chức năng</a></li>
-                            <li><a>Thảo dược - Thực phẩm tự nhiên</a> </li>
-                            <li><a>Vitamin</a> </li>
-                            <li><a> Hỗ trợ điều trị</a></li>
-                            <li><a> Canxi và khoáng chất</a></li>
+                            <li><a class = "link">Sinh lý - Nội tiết tố</a> </li>
+                            <li><a class = "link"> Cải thiện tăng cường chức năng</a></li>
+                            <li><a class = "link">Thảo dược - Thực phẩm tự nhiên</a> </li>
+                            <li><a class = "link">Vitamin</a> </li>
+                            <li><a class = "link"> Hỗ trợ điều trị</a></li>
+                            <li><a class = "link"> Canxi và khoáng chất</a></li>
                         </ul>
                     </div>
                     <div class="contract-certification-mobile mobile-sreen">
@@ -1595,7 +1609,7 @@
         <!-- introduce -->
 
         <!-- copyright -->
-        <div class="copyright">
+        <div class="footer__copyright">
             <div class="content">
                 <div class="copy-item">© 2007 - 2021 Công ty Cổ Phần Dược Phẩm FPT Long Châu Số ĐKKD 0315275368 cấp ngày
                     17/09/2018 tại Sở

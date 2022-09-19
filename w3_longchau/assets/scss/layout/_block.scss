@@ -1,0 +1,71 @@
+.block {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    &__title {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 36px;
+      color: $Gray800;
+    }
+    &__content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      .block-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(100% / 3);
+        &__img {
+          max-width: 64px;
+        }
+        .block-info {
+          font-size: 18px;
+          line-height: 24px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          &__name {
+            text-transform: uppercase;
+            color: #072d94;
+          }
+          &__description {
+            color: $Gray600;
+            font-weight: 400;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    &__btn-group {
+      font-size: 16px;
+      button {
+        font-weight: 500;
+        background: $Primary500;
+        border: 1px solid $Primary500;
+        border-radius: 100px;
+        color: $White100;
+        padding: 0px 32px;
+        font-size: 16px;
+        height: 36px;
+        a {
+          color: $White100;
+        }
+      }
+      > a {
+        margin-left: 8px;
+        font-weight: 400;
+      }
+    }
+  }
+  
