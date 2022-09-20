@@ -247,6 +247,9 @@ a:hover {
   filter: drop-shadow(0px 1px 4px px rgba(10, 10, 10, 0.15));
   box-shadow: 0 1px 4px rgba(10, 10, 10, 0.15);
 }
+.header__nav .content {
+  position: relative;
+}
 .header__nav .content ul {
   display: flex;
   flex-direction: row;
@@ -265,7 +268,6 @@ a:hover {
   cursor: pointer;
 }
 .header__nav .nav-item {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -289,8 +291,10 @@ a:hover {
   border-radius: 0px 0px 12px 12px;
   z-index: 2;
   width: 100%;
-  width: 1200px;
+  max-width: 1200px;
   height: 560px;
+  top: 100%;
+  left: 0;
 }
 .subnav__left {
   box-sizing: border-box;
@@ -934,6 +938,7 @@ a:hover {
   background: url(https://nhathuoclongchau.com/frontend_v3/images/bg-footer-app.png) no-repeat 0 0;
   border-radius: 12px;
   max-width: 400px;
+  width: 100%;
   padding: 0px 12px;
 }
 .footer .introduce-contract .app-tiem {
@@ -974,7 +979,7 @@ a:hover {
 }
 .footer .introduce-contract .app-img {
   max-width: 128px;
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .footer .introduce-contract .app-img img {
   border-radius: 17px 17px 0 0;
@@ -1036,7 +1041,7 @@ a:hover {
   }
   .header__menu {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 24px;
     width: 72px;
   }
   .header__nav {
@@ -1216,8 +1221,11 @@ a:hover {
     justify-content: space-between;
     background-size: 100%;
     background: url(https://nhathuoclongchau.com/frontend_v3/images/bg-footer-app.png) no-repeat 0 0;
+    border: 1px solid #d8e0e8;
     border-radius: 12px;
     padding: 0px 12px;
+    width: 100%;
+    background-size: 100%;
   }
   .app-tiem {
     box-sizing: border-box;
@@ -1258,6 +1266,7 @@ a:hover {
   .app-img {
     max-width: 128px;
     margin-top: 12px;
+    display: flex;
   }
   .app-img img {
     border-radius: 17px 17px 0 0;

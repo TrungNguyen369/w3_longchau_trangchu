@@ -100,6 +100,9 @@
       // align-items: center;
       filter: drop-shadow(0px 1px 4px px rgba(10, 10, 10, 0.15));
       box-shadow: 0 1px 4px rgb(10 10 10 / 15%);
+      .content{
+        position: relative;
+      }
       .content ul {
         display: flex;
         flex-direction: row;
@@ -120,7 +123,6 @@
         cursor: pointer;
       }
       .nav-item {
-        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: center;

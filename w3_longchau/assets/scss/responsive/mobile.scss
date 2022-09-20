@@ -32,7 +32,7 @@
   }
   .header__menu {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 24px;
     width: 72px;
   }
 
@@ -253,10 +253,11 @@
     background-size: 100%;
     background: url(https://nhathuoclongchau.com/frontend_v3/images/bg-footer-app.png)
       no-repeat 0 0;
-    // border: 1px solid #d8e0e8;
+    border: 1px solid #d8e0e8;
     border-radius: 12px;
-    // max-width: 400px;
     padding: 0px 12px;
+    width: 100%;
+    background-size: 100%;
   }
 
   .app-tiem {
@@ -298,6 +299,7 @@
   .app-img {
     max-width: 128px;
     margin-top: 12px;
+    display: flex;
     img {
       border-radius: 17px 17px 0 0;
     }
