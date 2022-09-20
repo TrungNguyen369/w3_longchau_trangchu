@@ -27,6 +27,10 @@ ul {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto, sans-serif;
   background: #ffffff;
@@ -57,7 +61,8 @@ body {
 }
 
 .col-4 {
-  width: 25%;
+  flex: 0 0 25%;
+  width: 33.3333333333%;
 }
 
 .m-f-2 {
@@ -114,6 +119,10 @@ a {
 a:hover {
   cursor: pointer;
   color: #072d94;
+}
+
+.p-8 {
+  padding: 0px 8px;
 }
 
 .swiper .swiper-button-next:hover,
@@ -327,7 +336,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 16px;
+  padding: 16px 8px;
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
@@ -348,9 +357,8 @@ a:hover {
   background: #ffffff;
   border: 1px solid #d8e0e8;
   border-radius: 100px;
-  width: calc(25% - 12px);
-  margin-right: 12px;
-  margin-bottom: 16px;
+  width: 100%;
+  margin-bottom: 12px;
 }
 .subnav__right .right-cate-item .cate-img {
   display: flex;
@@ -431,7 +439,6 @@ a:hover {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  width: 156px;
   height: 268px;
   border-radius: 12px;
 }
